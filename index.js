@@ -11,7 +11,6 @@ const App = {
 
     const checkDetail = (id) => {
       product.value = products.value.find((pro) => pro.id === id);
-      console.log(product.value);
     };
 
     return { products, product, checkDetail };
